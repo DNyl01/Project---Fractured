@@ -1,3 +1,2 @@
 header {
-    background-image: url("../../images/fractured-landscape.jpg");
-}
+    background-image:linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url("../../images/fractured-landscape.jpg");}
