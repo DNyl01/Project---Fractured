@@ -11,12 +11,13 @@ color:white}
 }
 
 header{background-image: 
-    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),
+    linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),
      url("../images/obsession.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
+background-position: top;
 padding: 80px 90px;
+margin: 30px;
 h3{ color: white;
 font-weight: 400;}
 h1{ color:white;
@@ -53,14 +54,68 @@ footer{ text-align: center;}
 h1{ text-align: center;
 font-size: 30px;
 line-height: 2;
-margin: 60px auto;
+margin: 40px auto;
 padding-top: 30px;
 transition: all 0.4s ease-in-out;
 }
 h3{ position: absolute;
 top: 0;
 left: 0;
-padding:40px 350px 0px 50px;
+padding:40px 350px 0px 60px;
 font-size: 20px;}
 
+}
+
+footer{ background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("../images/footer-img.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 40px;
+margin: 200px;}
+
+footer a{
+
+color:black;
+    background-color: white;
+    text-decoration: none;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 20px;
+    ;}
+
+
+.footer a:hover{text-decoration: underline !important;
+color: white !important; 
+background-color: black !important; }
+
+
+
+.footer-links-one a{ color: black;
+background-color: white;
+text-decoration: underline;
+
+
+}
+
+.footer-links-two a{ 
+    color: black;
+    background-color: white;
+text-decoration: underline;
+}
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+ul{
+    list-style: none;
 }
