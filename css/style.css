@@ -2,13 +2,11 @@ body{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   background-color: rgba(0,0,0,0.9);
-color:white}
-
-
-.container{
-    max-width: 1400px;
-    margin:0 auto;
-}
+color:white;}
+.grid{
+    display: grid;
+grid-template-columns: 1fr 2fr;
+gap: 10px;}
 
 header{background-image: 
     linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),
@@ -16,18 +14,16 @@ header{background-image:
 background-repeat: no-repeat;
 background-size: cover;
 background-position: top;
-padding: 80px 90px;
-margin: 30px;
+padding: 60px;
+letter-spacing: 2;
+}
+
 h3{ color: white;
 font-weight: 400;}
+
 h1{ color:white;
 font-weight: 600;
-line-height: 1.5;
-
-}
-letter-spacing: 2px;
-
-}
+line-height: 1.5;}
 
 main{
     text-align: center;
@@ -39,11 +35,7 @@ main{
     padding: 7px;
     display: inline-block;
     border-radius: 3px;
-    margin: 20px;
-    ;
-
-    
-}
+    margin: 20px;}
 
 footer{ text-align: center;}
 
@@ -58,31 +50,42 @@ margin: 40px auto;
 padding-top: 30px;
 transition: all 0.4s ease-in-out;
 }
-h3{ position: absolute;
+header h3{ position: absolute;
 top: 0;
 left: 0;
 padding:40px 350px 0px 60px;
-font-size: 20px;}
+font-size: 10px;} 
+
+.grid{ 
+    display: grid;
+    grid-template-columns: 1fr;
+gap: 10px;
+}
+
+footer { font-size: 15px;
+padding: 5px;}
+
 
 }
+
+
+
 
 footer{ background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("../images/footer-img.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-padding: 40px;
-margin: 200px;}
+
+}
 
 footer a{
-
 color:black;
     background-color: white;
     text-decoration: none;
-    padding: 7px;
     display: inline-block;
     border-radius: 3px;
-    margin: 20px;
-    ;}
+margin: 10px;
+padding: 4px;}
 
 
 .footer a:hover{text-decoration: underline !important;
@@ -94,8 +97,6 @@ background-color: black !important; }
 .footer-links-one a{ color: black;
 background-color: white;
 text-decoration: underline;
-
-
 }
 
 .footer-links-two a{ 
@@ -103,19 +104,33 @@ text-decoration: underline;
     background-color: white;
 text-decoration: underline;
 }
-    
-
-
-
-
-
-
-
-
-
-
-    
-
 ul{
     list-style: none;
 }
+
+
+
+main h3{ opacity: 0.6;}
+
+section{
+    background-color: whitesmoke;
+    color: black;
+    margin: 30px auto;
+    padding: 35px;
+}
+section h2,
+section h3,
+section p{background-color: whitesmoke;
+color: black;
+letter-spacing: 2;
+line-height: 1.5;
+padding: 10px;
+margin: 20px;}
+
+
+
+
+.container{
+    max-width: 1400px;
+    margin: 10px auto;
+    padding: 20px;}
