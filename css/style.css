@@ -40,6 +40,7 @@ main{
 footer{ text-align: center;}
 
 @media(max-width:900px){
+  body{  overflow-x: hidden ;}
 
 .click-here-button a{ 
     font-size: 15px;}
@@ -81,12 +82,16 @@ filter: brightness(90%) ;}
     margin-top: 30px !important;
 }
 .card-description{ height: 100px !important;}
-.table{ 
-     padding: 10px !important;}
-th, tbody{ padding: 3px !important;
+table{ font-size: 16px;}
+th, tbody{padding: 3px !important;
+    margin: 5px;
 }
-.long-tittle{width: 100%;}
-}
+table{ height: 60px;
+margin:10px auto}
+.long-tittle{width: 95px !important;}}
+
+
+
 
 
 
