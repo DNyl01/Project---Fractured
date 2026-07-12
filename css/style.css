@@ -213,5 +213,9 @@ transition: filter 0.3s ease-out;}
        
 
 table{ margin: 0 auto;
+    gap: 10px;
     
+}
+th, tbody{
+    padding: 10px;
 }
